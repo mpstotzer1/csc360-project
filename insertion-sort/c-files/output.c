@@ -5,7 +5,7 @@
 void printArray(int arr[], int n){
 
 	for (int i = 0; i < n; i++){
-    printf("%d ", arr[i]);
+    printf("%d\t", arr[i]);
 	}
 
   printf("\n");
@@ -21,7 +21,7 @@ int main(void){
 
   insertionSort(arr, n);
 
-  printf("Sorted array: ");
+  printf("  Sorted array: ");
   printArray(arr, n);
 
   return 0;
